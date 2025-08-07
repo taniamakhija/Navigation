@@ -33,8 +33,9 @@ struct ContentView: View {
                     Text("or click me..")
                         .foregroundColor(Color.green)
                         .multilineTextAlignment(.center)
-                    
-            
+                        .navigationTitle("Home")
+                        .navigationBarTitleDisplayMode(.inline)
+                        .navigationBarHidden(true)
                     
                 } //  navigation link
                 
